@@ -1,0 +1,14 @@
+/.editor_settings
+/.internal
+/build
+.externalToolBuilders
+.DS_Store
+Thumbs.db
+.lock-wscript
+*.pyc
+.project
+.cproject
+builtins
+
+#2025-08-04 05:38
+tmp
