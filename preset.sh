@@ -2,7 +2,7 @@
 # 2025-08-04 MON 06:13
 
 ## Create folders
-mkdir -p assets/sprites/monsters assets/fonts assets/sounds assets/ui scripts gui data docs/uml_diagrams tmp
+mkdir -p assets/sprites/monsters assets/fonts assets/sounds assets/ui scripts gui data docs/uml_diagrams docs/plan tmp
 
 ## Assets
 # Monster sprites
@@ -39,8 +39,18 @@ cd ..
 cd docs
 # What is it ( sequence_diagram, state_diagram )
 touch README.md uml_diagrams/class_diagram.png uml_diagrams/sequence_diagram.png uml_diagrams/activity_diagram.png uml_diagrams/state_diagram.png uml_diagrams/use_case_diagram.png
+
+### Plan
+touch plan/dev_plan_week_v1.md plan/dev_plan_week_v2.md 
+#### Days
+for i in {1..7}
+    do touch plan/day_$i.md
+done
+
 cd ..
 
+
+## Done
 echo "📚 Basic structure created!"
 echo "Done!"
 echo ""
