@@ -6,10 +6,10 @@ mkdir -p assets/sprites/monsters assets/fonts assets/sounds assets/ui scripts gu
 
 ## Assets
 # Monster sprites
-for i in {1..9} 
+for i in {1..9}
     do touch assets/sprites/monsters/monster_0$i.png
 done
-for i in {11..27} 
+for i in {11..27}
     do touch assets/sprites/monsters/monster_$i.png
 done
 
@@ -21,7 +21,7 @@ cd ..
 touch assets/ui/btn_upgrade.png assets/ui/collection.png assets/ui/shop_zone.png
 
 ## Scripts
-cd scripts 
+cd scripts
 touch game_controller.lua monster_manager.lua monster.lua currency_manager.lua upgrade_manager.lua ui_controller.lua utils.lua
 cd ..
 
